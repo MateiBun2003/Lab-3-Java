@@ -13,5 +13,6 @@ public class Main {
         for (int element : lista) {
             System.out.println(element);
         }
+        System.out.println();
     }
 }
