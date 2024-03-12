@@ -1,5 +1,8 @@
 package org.example;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
 public class Main {
     public static void main(String[] args) {
         List<Integer> lista =new ArrayList<>();
@@ -13,6 +16,7 @@ public class Main {
         for (int element : lista) {
             System.out.println(element);
         }
+        System.out.println();
         System.out.println();
     }
 }
